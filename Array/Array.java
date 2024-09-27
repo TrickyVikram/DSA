@@ -41,8 +41,8 @@ public class Array {
         // Array of Strings
         String[] stringArray = {"vikram", "guddu", "vivek"};
         System.out.println("\nArray of Strings:");
-        for (String fruit : stringArray) {
-            System.out.print(fruit + " ");
+        for (String name : stringArray) {
+            System.out.print(name + " ");
         }
         System.out.println();
 

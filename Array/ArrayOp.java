@@ -25,7 +25,7 @@ public class ArrayOp {
             scanner.nextLine();  // Consume the newline character
 
             // Create a new Person object and add it to the array
-            people[i] = new Person(name, age);
+            people[i] = new Person(age, name);
         }
 
         // Display details of each person using getters

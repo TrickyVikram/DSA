@@ -28,21 +28,4 @@ public class P2 {
 }
 
 
-// public class HollowRectangle {
-//     public static void main(String[] args) {
-//         int rows = 4;  // Number of rows
-//         int cols = 5; // Number of columns
 
-//         for (int i = 0; i < rows; i++) { // Loop through rows
-//             for (int j = 0; j < cols; j++) { // Loop through columns
-//                 // Print '*' for borders and ' ' for inside
-//                 if (i == 0 || i == rows - 1 || j == 0 || j == cols - 1) {
-//                     System.out.print("*");
-//                 } else {
-//                     System.out.print(" ");
-//                 }
-//             }
-//             System.out.println(); // Move to the next line
-//         }
-//     }
-// }

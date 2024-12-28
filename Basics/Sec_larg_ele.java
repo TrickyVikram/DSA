@@ -19,12 +19,21 @@ public class Sec_larg_ele {
             }
         }
 
-        //  second Max
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != max && (sec_max == max || arr[i] > sec_max)) {
+          //  second Max
+          for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != max && arr[i] > sec_max) {
                 sec_max = arr[i];
             }
         }
+
+
+        //  second Max
+        // for (int i = 0; i < arr.length; i++) {
+        //     if (arr[i] != max && (sec_max == max || arr[i] > sec_max)) {
+        //         sec_max = arr[i];
+        //     }
+        // }
+
 
         System.out.println("Max: " + max);
         System.out.println("Sec_Max: " + sec_max);

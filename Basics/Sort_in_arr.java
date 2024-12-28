@@ -2,7 +2,7 @@ package Basics;
 
 public class Sort_in_arr {
     public static void main(String[] args) {
-        int arr[] = {1, 2, 4, 6, 23, 24, 12, 9, 10, 8};
+        int arr[] = {1, 2, 4, 9, 10, 8};
 
         // Insertion Sort
         for (int i = 1; i < arr.length; i++) {
